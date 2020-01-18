@@ -112,7 +112,7 @@ class PushedScreen extends React.Component {
         options: {
           animations: {
             setStackRoot: {
-              enabled: false
+              // enabled: false
             }
           },
           topBar: {
@@ -133,7 +133,7 @@ class PushedScreen extends React.Component {
         options: {
           animations: {
             setStackRoot: {
-              enabled: false
+              // enabled: false
             }
           },
           topBar: {

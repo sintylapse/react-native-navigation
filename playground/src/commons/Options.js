@@ -20,7 +20,18 @@ const setDefaultOptions = () => Navigation.setDefaultOptions({
     selectedTextColor: Colors.primary
   },
   animations: {
-    ...useSlowOpenScreenAnimations ? slowOpenScreenAnimations : {}   
+    showModal: {
+      waitForRender: true,
+    },
+    push: {
+      waitForRender: true,
+    },
+    pop: {
+      waitForRender: true,
+    },
+    setStackRoot: {
+      waitForRender: true,
+    },
   },
   modalPresentationStyle: 'fullScreen'
 });
